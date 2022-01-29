@@ -474,6 +474,9 @@ Allocated String Report
       1001  "D"
       1001  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:91
 
+      1000  "1:4"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:141
+
       1000  "@collapsed"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
@@ -490,9 +493,6 @@ Allocated String Report
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
       1000  "@spans"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      1000  "@thick_bot"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
       1000  "@thick_top"
