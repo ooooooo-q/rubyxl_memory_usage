@@ -7,6 +7,7 @@ module RubyXL
 
   module OOXMLObjectInstanceMethods
 
+    # todo メモリ使用量が逆に増える場合がある
     def ==(other)
       return true if other.is_a?(self.class)
       
