@@ -6,7 +6,11 @@ Analyzing RubyXL's memory usage using memory_profiler
 
 ```
 ./all.sh
+```
 
+### RubyXL 3.4.2
+
+```
 rbenv local 3.1.0
 bundle install
 ./all.sh &> results/ruby_3.1.0/result.md
@@ -23,4 +27,27 @@ rbenv local 2.6.9
 gem install bundler:2.3.3
 bundle install
 ./all.sh &> results/ruby_2.6.9/result.md
+```
+
+### RubyXL 3.4.2 and `frozen_string_literal: true`
+
+
+```
+# change Gemfile branch
+
+rbenv local 3.1.0
+bundle install
+FROZEN='true' ./all.sh &> results/ruby_3.1.0_with_frozen/result.md
+
+rbenv local 3.0.3
+bundle install
+FROZEN='true' ./all.sh &> results/ruby_3.0.3_with_frozen/result.md
+
+rbenv local 2.7.5
+bundle install
+FROZEN='true' ./all.sh &> results/ruby_2.7.5_with_frozen/result.md
+
+rbenv local 2.6.9
+bundle install
+FROZEN='true' ./all.sh &> results/ruby_2.6.9_with_frozen/result.md
 ```

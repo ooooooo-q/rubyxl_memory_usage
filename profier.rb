@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'memory_profiler'
 
 require './operate.rb'
@@ -6,7 +8,10 @@ require './operate.rb'
 def profile(file)
   puts "\n### #{file}\n\n"
 
-  `mkdir -p #{"results/ruby_#{RUBY_VERSION}/#{ENV['PATTERN']}"}`
+
+  with_frozen = ENV['FROZEN'] == 'true' ? '_with_frozen' : ''
+  `mkdir -p #{"results/ruby_#{RUBY_VERSION}#{with_frozen}/#{ENV['PATTERN']}"}`
+
 
   if ENV['OPERATE'] == 'write'
     write_report = MemoryProfiler.report do 
@@ -24,7 +29,7 @@ def profile(file)
       scale_bytes: true, 
       normalize_paths: true,
       retained_strings: 0,
-      to_file: "results/ruby_#{RUBY_VERSION}/#{ENV['PATTERN']}/write_#{file}.txt"
+      to_file: "results/ruby_#{RUBY_VERSION}#{with_frozen}/#{ENV['PATTERN']}/write_#{file}.txt"
     )
 
   elsif ENV['OPERATE'] == 'read'
@@ -43,7 +48,7 @@ def profile(file)
       scale_bytes: true, 
       normalize_paths: true,
       retained_strings: 0, 
-      to_file: "results/ruby_#{RUBY_VERSION}/#{ENV['PATTERN']}/read_#{file}.txt"
+      to_file: "results/ruby_#{RUBY_VERSION}#{with_frozen}/#{ENV['PATTERN']}/read_#{file}.txt"
     )
   end
 end  
