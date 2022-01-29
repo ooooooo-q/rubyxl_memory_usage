@@ -8,7 +8,7 @@ Analyzing RubyXL's memory usage using memory_profiler
 ./all.sh
 ```
 
-### RubyXL 3.4.2
+### rubyXL 3.4.20
 
 ```
 rbenv local 3.1.0
@@ -29,7 +29,7 @@ bundle install
 ./all.sh &> results/ruby_2.6.9/result.md
 ```
 
-### RubyXL 3.4.2 and `frozen_string_literal: true`
+### rubyXL 3.4.20 and `frozen_string_literal: true`
 
 
 ```
