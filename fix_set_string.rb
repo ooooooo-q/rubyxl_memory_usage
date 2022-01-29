@@ -1,0 +1,57 @@
+require './operate.rb'
+
+require 'memory_profiler'
+
+module RubyXL
+  require 'rubyXL/objects/ooxml_object'
+
+  module OOXMLObjectInstanceMethods
+
+    @@_variable_keys = {}
+    def initialize(params = {})
+      @local_namespaces = nil
+
+      obtain_class_variable(:@@ooxml_attributes).each_value { |v|
+        unless v[:computed]
+          unless @@_variable_keys[v[:accessor]]
+            @@_variable_keys[v[:accessor]] = "@#{v[:accessor]}"
+          end
+          instance_variable_set(@@_variable_keys[v[:accessor]], params[v[:accessor]])
+        end
+      }
+
+      init_child_nodes(params)
+    end
+
+    def init_child_nodes(params)
+      obtain_class_variable(:@@ooxml_child_nodes).each_value { |v|
+
+        initial_value =
+          if params.has_key?(v[:accessor]) then params[v[:accessor]]
+          elsif v[:is_array] then []
+          else nil
+          end
+
+        unless @@_variable_keys[v[:accessor]]
+          @@_variable_keys[v[:accessor]] = "@#{v[:accessor]}"
+        end
+        instance_variable_set(@@_variable_keys[v[:accessor]], initial_value)
+      }
+    end
+    
+  end
+end
+
+write_report = MemoryProfiler.report do
+  write_xlsx
+end
+
+write_report.pretty_print(scale_bytes: true, normalize_paths: true,
+  retained_strings: 0, to_file: "results/#{ENV['PATTERN']}/write_set_string.txt")
+
+read_report = MemoryProfiler.report do
+  read_xlsx
+end
+
+read_report.pretty_print(scale_bytes: true, normalize_paths: true,
+  retained_strings: 0, to_file: "results/#{ENV['PATTERN']}/read_set_string.txt")
