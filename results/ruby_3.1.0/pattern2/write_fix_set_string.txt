@@ -1,32 +1,33 @@
-Total allocated: 16.76 MB (341872 objects)
-Total retained:  15.47 kB (238 objects)
+Total allocated: 15.14 MB (299864 objects)
+Total retained:  33.06 kB (673 objects)
 
 allocated memory by gem
 -----------------------------------
-  11.65 MB  rubyXL-3.4.20
+   9.47 MB  rubyXL-3.4.20
    4.60 MB  nokogiri-1.13.1
- 235.94 kB  other
- 179.05 kB  3.1.0/lib
+ 792.16 kB  other
+ 179.09 kB  3.1.0/lib
   88.39 kB  rubyzip-2.3.2
 
 allocated memory by file
 -----------------------------------
-   7.73 MB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb
+   5.48 MB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb
    3.06 MB  nokogiri-1.13.1/lib/nokogiri/xml/node.rb
    1.92 MB  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb
    1.54 MB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb
  800.00 kB  rubyXL-3.4.20/lib/rubyXL/objects/sheet_data.rb
  712.25 kB  rubyXL-3.4.20/lib/rubyXL/worksheet.rb
+ 552.38 kB  fix_set_string.rb
  361.15 kB  rubyXL-3.4.20/lib/rubyXL/objects/worksheet.rb
- 231.24 kB  /private/tmp/rubyxl_memory_usage/operate.rb
+ 235.00 kB  /private/tmp/rubyxl_memory_usage/operate.rb
  178.37 kB  3.1.0/lib/ruby/3.1.0/pathname.rb
+  52.35 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/font.rb
+  41.79 kB  rubyXL-3.4.20/lib/rubyXL/objects/color.rb
   39.85 kB  rubyzip-2.3.2/lib/zip/deflater.rb
+  35.26 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/cell.rb
+  34.74 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/workbook.rb
   28.83 kB  rubyzip-2.3.2/lib/zip/output_stream.rb
-  26.75 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/font.rb
-  20.99 kB  rubyXL-3.4.20/lib/rubyXL/objects/color.rb
-  18.46 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/cell.rb
-  17.94 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/workbook.rb
-  13.45 kB  rubyXL-3.4.20/lib/rubyXL/objects/workbook.rb
+  13.48 kB  rubyXL-3.4.20/lib/rubyXL/objects/workbook.rb
    8.86 kB  rubyzip-2.3.2/lib/zip/entry.rb
    6.80 kB  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb
    5.76 kB  rubyzip-2.3.2/lib/zip/extra_field.rb
@@ -43,11 +44,12 @@ allocated memory by file
   840.00 B  rubyXL-3.4.20/lib/rubyXL/objects/theme.rb
   720.00 B  nokogiri-1.13.1/lib/nokogiri/html5/node.rb
   720.00 B  rubyzip-2.3.2/lib/zip/crypto/null_encryption.rb
-  648.00 B  3.1.0/lib/ruby/3.1.0/fileutils.rb
+  680.00 B  3.1.0/lib/ruby/3.1.0/fileutils.rb
   408.00 B  rubyXL-3.4.20/lib/rubyXL/objects/border.rb
   400.00 B  rubyzip-2.3.2/lib/zip/dos_time.rb
   273.00 B  nokogiri-1.13.1/lib/nokogiri/class_resolver.rb
   144.00 B  rubyzip-2.3.2/lib/zip/central_directory.rb
+   80.00 B  /private/tmp/rubyxl_memory_usage/profier.rb
    40.00 B  3.1.0/lib/ruby/3.1.0/singleton.rb
    40.00 B  nokogiri-1.13.1/lib/nokogiri/xml/document_fragment.rb
    40.00 B  nokogiri-1.13.1/lib/nokogiri/xml/node_set.rb
@@ -56,77 +58,77 @@ allocated memory by file
 
 allocated memory by location
 -----------------------------------
-   2.04 MB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:222
+   2.20 MB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:222
    1.97 MB  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
-   1.80 MB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
    1.55 MB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:293
- 742.96 kB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:223
- 591.56 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:246
+ 743.28 kB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:223
  512.02 kB  rubyXL-3.4.20/lib/rubyXL/worksheet.rb:41
  480.24 kB  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:80
  480.04 kB  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:24
  480.04 kB  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:25
  412.78 kB  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1194
- 371.60 kB  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
- 371.48 kB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:240
- 371.48 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:313
- 371.48 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:314
- 329.24 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:227
+ 371.76 kB  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
+ 371.64 kB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:240
+ 371.64 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:313
+ 371.64 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:314
+ 329.24 kB  fix_set_string.rb:9
  320.16 kB  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:85
  320.00 kB  rubyXL-3.4.20/lib/rubyXL/objects/sheet_data.rb:58
  320.00 kB  rubyXL-3.4.20/lib/rubyXL/objects/sheet_data.rb:66
  320.00 kB  rubyXL-3.4.20/lib/rubyXL/objects/worksheet.rb:703
- 240.08 kB  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1270
- 217.76 kB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:72
- 205.54 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:242
- 204.24 kB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+ 311.32 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:259
+ 240.18 kB  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1270
+ 217.99 kB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:72
+ 205.54 kB  fix_set_string.rb:29
+ 204.40 kB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+ 191.20 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:258
  160.08 kB  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:76
  160.02 kB  rubyXL-3.4.20/lib/rubyXL/worksheet.rb:27
  160.00 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:252
  160.00 kB  rubyXL-3.4.20/lib/rubyXL/objects/sheet_data.rb:74
- 146.22 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:16
+ 150.18 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:16
   54.36 kB  3.1.0/lib/ruby/3.1.0/pathname.rb:49
   52.45 kB  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:516
+  51.21 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/font.rb:58
   41.92 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:152
+  41.79 kB  rubyXL-3.4.20/lib/rubyXL/objects/color.rb:19
   40.00 kB  /private/tmp/rubyxl_memory_usage/operate.rb:28
   40.00 kB  /private/tmp/rubyxl_memory_usage/operate.rb:30
   40.00 kB  /private/tmp/rubyxl_memory_usage/operate.rb:31
   40.00 kB  /private/tmp/rubyxl_memory_usage/operate.rb:32
   40.00 kB  rubyXL-3.4.20/lib/rubyXL/objects/worksheet.rb:718
   40.00 kB  rubyXL-3.4.20/lib/rubyXL/worksheet.rb:26
+  33.60 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/cell.rb:191
+  33.60 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/workbook.rb:43
   33.12 kB  3.1.0/lib/ruby/3.1.0/pathname.rb:53
   31.98 kB  /private/tmp/rubyxl_memory_usage/operate.rb:21
   27.89 kB  rubyzip-2.3.2/lib/zip/deflater.rb:25
-  25.61 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/font.rb:58
   24.70 kB  rubyzip-2.3.2/lib/zip/output_stream.rb:60
   24.21 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:124
   21.00 kB  /private/tmp/rubyxl_memory_usage/operate.rb:22
-  20.99 kB  rubyXL-3.4.20/lib/rubyXL/objects/color.rb:19
   17.96 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:15
   17.84 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:158
-  16.80 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/cell.rb:191
-  16.80 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/workbook.rb:43
 
 allocated memory by class
 -----------------------------------
-   6.29 MB  String
-   4.04 MB  Hash
-   2.84 MB  Array
+   4.22 MB  Hash
+   3.93 MB  String
+   3.34 MB  Array
  964.28 kB  Range
- 624.32 kB  Nokogiri::XML::Attr
+ 624.56 kB  Nokogiri::XML::Attr
  512.02 kB  RubyXL::Cell
  480.04 kB  RubyXL::Reference
- 380.44 kB  Nokogiri::XML::Element
+ 380.60 kB  Nokogiri::XML::Element
  160.02 kB  RubyXL::Row
  160.00 kB  RubyXL::CellValue
- 128.14 kB  Thread::Backtrace
+ 132.18 kB  Thread::Backtrace
+  33.94 kB  RubyXL::Font
+  33.94 kB  RubyXL::XF
   33.73 kB  File
-  17.14 kB  RubyXL::Font
-  17.14 kB  RubyXL::XF
-  16.80 kB  MatchData
+  33.60 kB  MatchData
+  17.61 kB  RubyXL::Color
   11.60 kB  Pathname
   10.91 kB  NameError
-   8.81 kB  RubyXL::Color
    7.94 kB  NameError::message
    6.94 kB  Nokogiri::XML::NodeSet
    6.49 kB  RubyXL::CT_SchemeColor
@@ -162,30 +164,31 @@ allocated memory by class
 
 allocated objects by gem
 -----------------------------------
-    239520  rubyXL-3.4.20
-     92879  nokogiri-1.13.1
-      4827  other
+    187651  rubyXL-3.4.20
+     92919  nokogiri-1.13.1
+     14648  other
       4220  3.1.0/lib
        426  rubyzip-2.3.2
 
 allocated objects by file
 -----------------------------------
-    155405  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb
-     59806  nokogiri-1.13.1/lib/nokogiri/xml/node.rb
+    102936  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb
+     59830  nokogiri-1.13.1/lib/nokogiri/xml/node.rb
      48017  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb
-     33047  nokogiri-1.13.1/lib/nokogiri/xml/document.rb
+     33063  nokogiri-1.13.1/lib/nokogiri/xml/document.rb
      20000  rubyXL-3.4.20/lib/rubyXL/objects/sheet_data.rb
+      9725  fix_set_string.rb
       9028  rubyXL-3.4.20/lib/rubyXL/objects/worksheet.rb
       6005  rubyXL-3.4.20/lib/rubyXL/worksheet.rb
-      4781  /private/tmp/rubyxl_memory_usage/operate.rb
+      4875  /private/tmp/rubyxl_memory_usage/operate.rb
       4214  3.1.0/lib/ruby/3.1.0/pathname.rb
-       203  rubyXL-3.4.20/lib/rubyXL/convenience_methods/font.rb
-       201  rubyXL-3.4.20/lib/rubyXL/objects/color.rb
+       403  rubyXL-3.4.20/lib/rubyXL/convenience_methods/font.rb
+       401  rubyXL-3.4.20/lib/rubyXL/objects/color.rb
+       203  rubyXL-3.4.20/lib/rubyXL/convenience_methods/cell.rb
+       203  rubyXL-3.4.20/lib/rubyXL/convenience_methods/workbook.rb
        144  rubyzip-2.3.2/lib/zip/entry.rb
        144  rubyzip-2.3.2/lib/zip/extra_field.rb
        132  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb
-       103  rubyXL-3.4.20/lib/rubyXL/convenience_methods/cell.rb
-       103  rubyXL-3.4.20/lib/rubyXL/convenience_methods/workbook.rb
         81  rubyXL-3.4.20/lib/rubyXL/objects/workbook.rb
         71  rubyXL-3.4.20/lib/rubyXL/objects/content_types.rb
         51  rubyXL-3.4.20/lib/rubyXL/objects/document_properties.rb
@@ -206,6 +209,7 @@ allocated objects by file
          6  nokogiri-1.13.1/lib/nokogiri/class_resolver.rb
          5  3.1.0/lib/ruby/3.1.0/fileutils.rb
          4  rubyXL-3.4.20/lib/rubyXL/objects/border.rb
+         2  /private/tmp/rubyxl_memory_usage/profier.rb
          2  rubyzip-2.3.2/lib/zip/central_directory.rb
          1  3.1.0/lib/ruby/3.1.0/singleton.rb
          1  nokogiri-1.13.1/lib/nokogiri/xml/document_fragment.rb
@@ -215,31 +219,31 @@ allocated objects by file
 
 allocated objects by location
 -----------------------------------
-     50914  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:222
-     49254  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
-     44974  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-     18574  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:223
-     14789  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:246
+     54920  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:222
+     49274  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
+     18582  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:223
      12006  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:80
      12001  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:24
      12001  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:25
-      9288  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
-      9287  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:240
-      9287  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:293
-      9287  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:313
-      9287  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:314
-      8231  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:227
+      9292  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
+      9291  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:240
+      9291  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:293
+      9291  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:313
+      9291  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:314
+      8231  fix_set_string.rb:9
       8004  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:85
       8000  rubyXL-3.4.20/lib/rubyXL/objects/sheet_data.rb:58
       8000  rubyXL-3.4.20/lib/rubyXL/objects/sheet_data.rb:66
       8000  rubyXL-3.4.20/lib/rubyXL/objects/worksheet.rb:703
-      5106  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+      7783  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:259
+      5110  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+      4780  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:258
       4002  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:76
       4000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:252
       4000  rubyXL-3.4.20/lib/rubyXL/objects/sheet_data.rb:74
       4000  rubyXL-3.4.20/lib/rubyXL/worksheet.rb:41
       1359  3.1.0/lib/ruby/3.1.0/pathname.rb:49
-      1059  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:242
+      1059  fix_set_string.rb:29
       1000  /private/tmp/rubyxl_memory_usage/operate.rb:28
       1000  /private/tmp/rubyxl_memory_usage/operate.rb:30
       1000  /private/tmp/rubyxl_memory_usage/operate.rb:31
@@ -252,41 +256,41 @@ allocated objects by location
        449  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:15
        446  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:152
        446  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:158
+       401  rubyXL-3.4.20/lib/rubyXL/objects/color.rb:19
+       400  rubyXL-3.4.20/lib/rubyXL/convenience_methods/font.rb:58
        385  /private/tmp/rubyxl_memory_usage/operate.rb:21
        373  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:16
        345  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:149
        330  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+       299  fix_set_string.rb:34
        287  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:517
        268  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:134
        268  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:141
        268  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:209
        225  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:125
        224  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:124
-       210  3.1.0/lib/ruby/3.1.0/pathname.rb:392
-       210  3.1.0/lib/ruby/3.1.0/pathname.rb:393
-       210  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1270
 
 allocated objects by class
 -----------------------------------
-    138594  String
-     70292  Hash
-     61129  Array
+     79483  String
+     74402  Hash
+     73712  Array
      24107  Range
-     15608  Nokogiri::XML::Attr
+     15614  Nokogiri::XML::Attr
      12001  RubyXL::Reference
-      9511  Nokogiri::XML::Element
+      9515  Nokogiri::XML::Element
       4000  RubyXL::Cell
       4000  RubyXL::CellValue
       1000  RubyXL::Row
        290  Pathname
+       202  RubyXL::Font
+       202  RubyXL::XF
+       200  MatchData
+       200  RubyXL::Color
        126  Thread::Backtrace
        124  NameError
        124  NameError::message
        124  Nokogiri::XML::NodeSet
-       102  RubyXL::Font
-       102  RubyXL::XF
-       100  MatchData
-       100  RubyXL::Color
         58  RubyXL::CT_SupplementalFont
         28  RubyXL::IntegerValue
         26  Nokogiri::XML::Namespace
@@ -321,13 +325,14 @@ allocated objects by class
 
 retained memory by gem
 -----------------------------------
+  22.58 kB  other
    8.78 kB  rubyXL-3.4.20
-   4.99 kB  other
    1.52 kB  3.1.0/lib
   185.00 B  nokogiri-1.13.1
 
 retained memory by file
 -----------------------------------
+  17.59 kB  fix_set_string.rb
    4.99 kB  /private/tmp/rubyxl_memory_usage/operate.rb
    4.96 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb
    1.62 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/cell.rb
@@ -340,6 +345,8 @@ retained memory by file
 
 retained memory by location
 -----------------------------------
+  11.96 kB  fix_set_string.rb:34
+   5.63 kB  fix_set_string.rb:15
    4.96 kB  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:222
    3.10 kB  /private/tmp/rubyxl_memory_usage/operate.rb:21
    1.62 kB  rubyXL-3.4.20/lib/rubyXL/convenience_methods/cell.rb:2
@@ -356,7 +363,7 @@ retained memory by location
 
 retained memory by class
 -----------------------------------
-   5.44 kB  String
+  23.03 kB  String
    4.96 kB  Hash
    3.56 kB  Module
    1.48 kB  Regexp
@@ -364,13 +371,14 @@ retained memory by class
 
 retained objects by gem
 -----------------------------------
+       537  other
        130  rubyXL-3.4.20
-       102  other
          4  3.1.0/lib
          2  nokogiri-1.13.1
 
 retained objects by file
 -----------------------------------
+       435  fix_set_string.rb
        124  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb
        102  /private/tmp/rubyxl_memory_usage/operate.rb
          3  3.1.0/lib/ruby/3.1.0/pathname.rb
@@ -383,6 +391,8 @@ retained objects by file
 
 retained objects by location
 -----------------------------------
+       299  fix_set_string.rb:34
+       136  fix_set_string.rb:15
        124  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:222
         67  /private/tmp/rubyxl_memory_usage/operate.rb:21
         21  /private/tmp/rubyxl_memory_usage/operate.rb:22
@@ -399,8 +409,8 @@ retained objects by location
 
 retained objects by class
 -----------------------------------
+       542  String
        124  Hash
-       107  String
          3  Module
          3  Regexp
          1  Zip::NullCompressor
@@ -408,8 +418,8 @@ retained objects by class
 
 Allocated String Report
 -----------------------------------
-      9889  ""
-      5280  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
+      9894  ""
+      5284  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
       4002  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:76
        221  3.1.0/lib/ruby/3.1.0/pathname.rb:53
        210  3.1.0/lib/ruby/3.1.0/pathname.rb:49
@@ -425,7 +435,7 @@ Allocated String Report
          9  rubyzip-2.3.2/lib/zip/entry.rb:65
          4  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:141
          4  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:131
-         2  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:306
+         3  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:306
          1  3.1.0/lib/ruby/3.1.0/fileutils.rb:515
          1  3.1.0/lib/ruby/3.1.0/pathname.rb:123
          1  3.1.0/lib/ruby/3.1.0/pathname.rb:217
@@ -436,8 +446,8 @@ Allocated String Report
          1  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:291
          1  rubyXL-3.4.20/lib/rubyXL/objects/workbook.rb:447
 
-      9287  "_"
-      9287  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:313
+      9291  "_"
+      9291  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:313
 
       6004  "A"
       6004  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:80
@@ -447,27 +457,11 @@ Allocated String Report
          2  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:517
          2  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:134
 
-      5002  "@r"
-      5002  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      5000  "@ph"
-      5000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      5000  "@style_index"
-      5000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
       4092  "\n"
       4000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:252
         50  /private/tmp/rubyxl_memory_usage/operate.rb:21
         28  /private/tmp/rubyxl_memory_usage/operate.rb:22
         14  /private/tmp/rubyxl_memory_usage/operate.rb:20
-
-      4034  "0"
-      4020  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
-        14  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:141
-
-      4008  "@value"
-      4008  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
       4007  "t"
       4002  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
@@ -475,29 +469,12 @@ Allocated String Report
          2  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:134
          1  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:141
 
-      4000  "@cm"
-      4000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      4000  "@datatype"
-      4000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      4000  "@formula"
-      4000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:246
-
-      4000  "@is"
-      4000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:246
-
-      4000  "@value_container"
-      4000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:246
-
-      4000  "@vm"
-      4000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      4000  "@xml_space"
-      4000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
       4000  "s"
       4000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
+
+      3837  "0"
+      3823  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+        14  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:141
 
       2002  "D"
       2002  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:80
@@ -524,38 +501,8 @@ Allocated String Report
       1000  /private/tmp/rubyxl_memory_usage/operate.rb:28
       1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
 
-      1001  "@hidden"
-      1001  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
       1000  "1:4"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/worksheet.rb:718
-
-      1000  "@cells"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:246
-
-      1000  "@collapsed"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      1000  "@custom_format"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      1000  "@custom_height"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      1000  "@ht"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      1000  "@outline_level"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      1000  "@spans"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      1000  "@thick_bot"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      1000  "@thick_top"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
       1000  "customFormat"
       1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
@@ -582,6 +529,10 @@ Allocated String Report
        446  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:152
          1  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:320
 
+       400  "0f0f0f"
+       200  /private/tmp/rubyxl_memory_usage/operate.rb:29
+       200  rubyXL-3.4.20/lib/rubyXL/objects/color.rb:19
+
        291  "xl"
        195  3.1.0/lib/ruby/3.1.0/pathname.rb:49
         30  3.1.0/lib/ruby/3.1.0/pathname.rb:378
@@ -592,14 +543,18 @@ Allocated String Report
          5  rubyXL-3.4.20/lib/rubyXL/objects/stylesheet.rb:191
          5  rubyXL-3.4.20/lib/rubyXL/objects/theme.rb:1391
 
-       212  "val"
-        73  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
+       237  "1"
+       208  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+         9  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:202
+         7  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:141
+         6  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:305
+         5  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:85
+         2  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
+
+       214  "val"
+        75  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
         70  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:517
         69  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:134
-
-       200  "0f0f0f"
-       100  /private/tmp/rubyxl_memory_usage/operate.rb:29
-       100  rubyXL-3.4.20/lib/rubyXL/objects/color.rb:19
 
        193  "typeface"
         65  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:517
@@ -620,12 +575,151 @@ Allocated String Report
          6  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:131
          3  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:132
 
-       100  "@indexed"
-       100  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
+        88  "docProps"
+        58  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+        10  3.1.0/lib/ruby/3.1.0/pathname.rb:378
+        10  3.1.0/lib/ruby/3.1.0/pathname.rb:416
+         5  rubyXL-3.4.20/lib/rubyXL/objects/document_properties.rb:122
+         5  rubyXL-3.4.20/lib/rubyXL/objects/document_properties.rb:85
 
-       100  "@rgb"
-       100  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
+        80  "xl/workbook.xml"
+        28  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+        14  3.1.0/lib/ruby/3.1.0/pathname.rb:392
+        14  3.1.0/lib/ruby/3.1.0/pathname.rb:393
+        14  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         4  3.1.0/lib/ruby/3.1.0/pathname.rb:544
+         2  3.1.0/lib/ruby/3.1.0/pathname.rb:126
+         1  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+         1  rubyzip-2.3.2/lib/zip/entry_set.rb:21
+         1  rubyzip-2.3.2/lib/zip/entry_set.rb:79
+         1  rubyzip-2.3.2/lib/zip/output_stream.rb:98
 
-       100  "@theme"
-       100  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
+        69  "val="
+        69  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:209
+
+        67  "    end\n"
+        37  /private/tmp/rubyxl_memory_usage/operate.rb:21
+        16  /private/tmp/rubyxl_memory_usage/operate.rb:22
+        14  /private/tmp/rubyxl_memory_usage/operate.rb:20
+
+        67  "_rels"
+        46  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         7  3.1.0/lib/ruby/3.1.0/pathname.rb:378
+         7  3.1.0/lib/ruby/3.1.0/pathname.rb:416
+         7  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:132
+
+        64  "typeface="
+        64  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:209
+
+        64  "worksheets"
+        46  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:378
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:416
+         6  rubyXL-3.4.20/lib/rubyXL/objects/worksheet.rb:734
+
+        62  "/a"
+        62  3.1.0/lib/ruby/3.1.0/pathname.rb:74
+
+        60  "xl/"
+        30  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+        30  3.1.0/lib/ruby/3.1.0/pathname.rb:53
+
+        58  "a:font"
+        58  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:158
+
+        58  "font"
+        58  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:158
+
+        58  "script="
+        58  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:209
+
+        58  "sheet1.xml"
+        34  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:392
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:413
+         6  rubyXL-3.4.20/lib/rubyXL/objects/worksheet.rb:734
+
+        57  "/xl"
+        18  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:126
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:514
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:75
+         6  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:132
+         6  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:42
+         6  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:52
+         3  3.1.0/lib/ruby/3.1.0/pathname.rb:378
+
+        57  "/xl/"
+        30  3.1.0/lib/ruby/3.1.0/pathname.rb:53
+        27  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+
+        56  "/xl/workbook.xml"
+        14  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+        14  3.1.0/lib/ruby/3.1.0/pathname.rb:393
+         7  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         3  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:131
+         3  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:132
+         3  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:42
+         3  rubyXL-3.4.20/lib/rubyXL/objects/relationships.rb:52
+         2  3.1.0/lib/ruby/3.1.0/pathname.rb:126
+         2  3.1.0/lib/ruby/3.1.0/pathname.rb:513
+         2  3.1.0/lib/ruby/3.1.0/pathname.rb:75
+         1  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+         1  rubyXL-3.4.20/lib/rubyXL/objects/content_types.rb:38
+         1  rubyXL-3.4.20/lib/rubyXL/objects/content_types.rb:65
+
+        49  "theme"
+        34  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:378
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:416
+         5  rubyXL-3.4.20/lib/rubyXL/objects/theme.rb:1391
+
+        44  "theme1.xml"
+        24  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:392
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:413
+         5  rubyXL-3.4.20/lib/rubyXL/objects/theme.rb:1391
+
+        42  "styles.xml"
+        19  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:392
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:413
+         5  rubyXL-3.4.20/lib/rubyXL/objects/stylesheet.rb:191
+         2  3.1.0/lib/ruby/3.1.0/pathname.rb:544
+         1  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+
+        40  "xl/worksheets/sheet1.xml"
+        18  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:392
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:393
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:126
+         3  3.1.0/lib/ruby/3.1.0/pathname.rb:544
+         1  rubyzip-2.3.2/lib/zip/entry_set.rb:79
+         1  rubyzip-2.3.2/lib/zip/output_stream.rb:98
+
+        39  "/xl/worksheets/sheet1.xml"
+        12  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+        10  3.1.0/lib/ruby/3.1.0/pathname.rb:126
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:393
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:513
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:75
+         1  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+
+        39  "app.xml"
+        19  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:392
+         5  3.1.0/lib/ruby/3.1.0/pathname.rb:413
+         5  rubyXL-3.4.20/lib/rubyXL/objects/document_properties.rb:85
+
+        39  "worksheets/sheet1.xml"
+        12  3.1.0/lib/ruby/3.1.0/pathname.rb:354
+         8  3.1.0/lib/ruby/3.1.0/pathname.rb:544
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:392
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:393
+         6  3.1.0/lib/ruby/3.1.0/pathname.rb:49
+         1  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
 

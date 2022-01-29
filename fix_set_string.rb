@@ -1,6 +1,4 @@
-require './operate.rb'
-
-require 'memory_profiler'
+require './profier.rb'
 
 module RubyXL
   require 'rubyXL/objects/ooxml_object'
@@ -14,7 +12,7 @@ module RubyXL
       obtain_class_variable(:@@ooxml_attributes).each_value { |v|
         unless v[:computed]
           unless @@_variable_keys[v[:accessor]]
-            @@_variable_keys[v[:accessor]] = "@#{v[:accessor]}"
+            @@_variable_keys[v[:accessor]] = "@#{v[:accessor]}".freeze
           end
           instance_variable_set(@@_variable_keys[v[:accessor]], params[v[:accessor]])
         end
@@ -33,7 +31,7 @@ module RubyXL
           end
 
         unless @@_variable_keys[v[:accessor]]
-          @@_variable_keys[v[:accessor]] = "@#{v[:accessor]}"
+          @@_variable_keys[v[:accessor]] = "@#{v[:accessor]}".freeze
         end
         instance_variable_set(@@_variable_keys[v[:accessor]], initial_value)
       }
@@ -42,16 +40,4 @@ module RubyXL
   end
 end
 
-write_report = MemoryProfiler.report do
-  write_xlsx
-end
-
-write_report.pretty_print(scale_bytes: true, normalize_paths: true,
-  retained_strings: 0, to_file: "results/#{ENV['PATTERN']}/write_set_string.txt")
-
-read_report = MemoryProfiler.report do
-  read_xlsx
-end
-
-read_report.pretty_print(scale_bytes: true, normalize_paths: true,
-  retained_strings: 0, to_file: "results/#{ENV['PATTERN']}/read_set_string.txt")
+profile('fix_set_string')

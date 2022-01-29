@@ -1,6 +1,4 @@
-require './operate.rb'
-
-require 'memory_profiler'
+require './profier.rb'
 
 module RubyXL
   require 'rubyXL/objects/ooxml_object'
@@ -22,16 +20,4 @@ module RubyXL
   
 end
 
-write_report = MemoryProfiler.report do
-  write_xlsx
-end
-
-write_report.pretty_print(scale_bytes: true, normalize_paths: true,
-  retained_strings: 0, to_file: "results/#{ENV['PATTERN']}/write_fix_equal.txt")
-
-read_report = MemoryProfiler.report do
-  read_xlsx
-end
-
-read_report.pretty_print(scale_bytes: true, normalize_paths: true,
-  retained_strings: 0, to_file: "results/#{ENV['PATTERN']}/read_fix_equal.txt")
+profile('fix_equal')
