@@ -8,7 +8,7 @@ Total allocated: 31.41 MB (404986 objects)
 Total retained:  30.56 kB (131 objects)
 
        user     system      total        real
-   0.089466   0.001042   0.090508 (  0.091378)
+   1.814757   0.016224   1.830981 (  1.839152)
 
 ### fix_all
 
@@ -16,7 +16,7 @@ Total allocated: 12.96 MB (228053 objects)
 Total retained:  48.60 kB (562 objects)
 
        user     system      total        real
-   0.097134   0.001170   0.098304 (  0.098718)
+   1.867121   0.015502   1.882623 (  1.893476)
 
 ### fix_default_hash
 
@@ -24,7 +24,7 @@ Total allocated: 19.57 MB (353950 objects)
 Total retained:  31.20 kB (132 objects)
 
        user     system      total        real
-   0.084568   0.000983   0.085551 (  0.086301)
+   1.803027   0.016532   1.819559 (  1.828686)
 
 ### fix_default_hash2
 
@@ -32,7 +32,7 @@ Total allocated: 29.50 MB (396755 objects)
 Total retained:  30.56 kB (131 objects)
 
        user     system      total        real
-   0.090924   0.001165   0.092089 (  0.093359)
+   1.933076   0.016686   1.949762 (  1.958684)
 
 ### fix_equal
 
@@ -40,7 +40,7 @@ Total allocated: 31.41 MB (404986 objects)
 Total retained:  30.56 kB (131 objects)
 
        user     system      total        real
-   0.085481   0.001553   0.087034 (  0.087541)
+   1.911135   0.015136   1.926271 (  1.934793)
 
 ### fix_set_string
 
@@ -48,7 +48,7 @@ Total allocated: 26.71 MB (287320 objects)
 Total retained:  47.95 kB (561 objects)
 
        user     system      total        real
-   0.086782   0.001676   0.088458 (  0.089566)
+   1.820713   0.019072   1.839785 (  1.847803)
 
 ## Read xlsx
 
@@ -58,7 +58,7 @@ Total allocated: 39.06 MB (441225 objects)
 Total retained:  23.60 kB (123 objects)
 
        user     system      total        real
-   0.072387   0.001347   0.073734 (  0.074128)
+   1.585927   0.024292   1.610219 (  1.617917)
 
 ### fix_all
 
@@ -66,7 +66,7 @@ Total allocated: 23.15 MB (271785 objects)
 Total retained:  41.64 kB (554 objects)
 
        user     system      total        real
-   0.069725   0.001735   0.071460 (  0.071663)
+   1.591148   0.025612   1.616760 (  1.634479)
 
 ### fix_default_hash
 
@@ -74,7 +74,7 @@ Total allocated: 30.23 MB (403150 objects)
 Total retained:  24.25 kB (124 objects)
 
        user     system      total        real
-   0.071009   0.001605   0.072614 (  0.072897)
+   1.560924   0.024714   1.585638 (  1.592644)
 
 ### fix_default_hash2
 
@@ -82,7 +82,7 @@ Total allocated: 36.86 MB (431724 objects)
 Total retained:  23.60 kB (123 objects)
 
        user     system      total        real
-   0.073073   0.001703   0.074776 (  0.075349)
+   1.613550   0.025355   1.638905 (  1.647599)
 
 ### fix_equal
 
@@ -90,7 +90,7 @@ Total allocated: 39.06 MB (441225 objects)
 Total retained:  23.60 kB (123 objects)
 
        user     system      total        real
-   0.071663   0.001417   0.073080 (  0.073312)
+   1.593036   0.026349   1.619385 (  1.627738)
 
 ### fix_set_string
 
@@ -98,7 +98,7 @@ Total allocated: 34.19 MB (319361 objects)
 Total retained:  41.00 kB (553 objects)
 
        user     system      total        real
-   0.075251   0.001424   0.076675 (  0.077306)
+   1.617779   0.023091   1.640870 (  1.650083)
 
 
 # File pattern2
@@ -111,7 +111,7 @@ Total allocated: 33.25 MB (425685 objects)
 Total retained:  39.96 kB (244 objects)
 
        user     system      total        real
-   0.093833   0.001118   0.094951 (  0.095813)
+   2.013971   0.016242   2.030213 (  2.040594)
 
 ### fix_all
 
@@ -119,7 +119,7 @@ Total allocated: 13.23 MB (229931 objects)
 Total retained:  58.20 kB (680 objects)
 
        user     system      total        real
-   0.082106   0.001145   0.083251 (  0.084165)
+   1.879504   0.015808   1.895312 (  1.907745)
 
 ### fix_default_hash
 
@@ -127,7 +127,7 @@ Total allocated: 20.44 MB (370440 objects)
 Total retained:  40.60 kB (245 objects)
 
        user     system      total        real
-   0.092905   0.001080   0.093985 (  0.094514)
+   1.906216   0.018911   1.925127 (  1.934573)
 
 ### fix_default_hash2
 
@@ -135,7 +135,7 @@ Total allocated: 31.34 MB (417453 objects)
 Total retained:  39.96 kB (244 objects)
 
        user     system      total        real
-   0.088736   0.001233   0.089969 (  0.090632)
+   2.020723   0.016284   2.037007 (  2.045481)
 
 ### fix_equal
 
@@ -143,7 +143,7 @@ Total allocated: 31.86 MB (409256 objects)
 Total retained:  39.96 kB (244 objects)
 
        user     system      total        real
-   0.086962   0.001095   0.088057 (  0.089287)
+   1.843062   0.016561   1.859623 (  1.869768)
 
 ### fix_set_string
 
@@ -151,7 +151,7 @@ Total allocated: 28.47 MB (306028 objects)
 Total retained:  57.55 kB (679 objects)
 
        user     system      total        real
-   0.093602   0.000946   0.094548 (  0.095760)
+   1.892950   0.017862   1.910812 (  1.919884)
 
 ## Read xlsx
 
@@ -161,7 +161,7 @@ Total allocated: 39.08 MB (441434 objects)
 Total retained:  23.84 kB (124 objects)
 
        user     system      total        real
-   0.072477   0.001499   0.073976 (  0.074449)
+   1.615202   0.031912   1.647114 (  1.656104)
 
 ### fix_all
 
@@ -169,7 +169,7 @@ Total allocated: 23.16 MB (271906 objects)
 Total retained:  42.07 kB (560 objects)
 
        user     system      total        real
-   0.070739   0.001706   0.072445 (  0.072844)
+   1.519582   0.025175   1.544757 (  1.553600)
 
 ### fix_default_hash
 
@@ -177,7 +177,7 @@ Total allocated: 30.25 MB (403340 objects)
 Total retained:  24.48 kB (125 objects)
 
        user     system      total        real
-   0.074482   0.001777   0.076259 (  0.076859)
+   1.573747   0.028304   1.602051 (  1.610401)
 
 ### fix_default_hash2
 
@@ -185,7 +185,7 @@ Total allocated: 36.88 MB (431928 objects)
 Total retained:  23.84 kB (124 objects)
 
        user     system      total        real
-   0.074318   0.001312   0.075630 (  0.076254)
+   1.667650   0.029112   1.696762 (  1.707128)
 
 ### fix_equal
 
@@ -193,7 +193,7 @@ Total allocated: 39.08 MB (441434 objects)
 Total retained:  23.84 kB (124 objects)
 
        user     system      total        real
-   0.072925   0.001543   0.074468 (  0.075271)
+   1.565176   0.025134   1.590310 (  1.593025)
 
 ### fix_set_string
 
@@ -201,4 +201,4 @@ Total allocated: 34.21 MB (319506 objects)
 Total retained:  41.43 kB (559 objects)
 
        user     system      total        real
-   0.074392   0.001827   0.076219 (  0.076845)
+   1.535963   0.022113   1.558076 (  1.563003)

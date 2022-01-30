@@ -553,16 +553,16 @@ Allocated String Report
       1001  "D"
       1001  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:91
 
-      1000  "@spans"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
+      1000  "B"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:91
 
       1000  "C"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:91
 
-      1000  "blue"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:130
+      1000  "custom_height"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
-      1000  "green"
+      1000  "red"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:130
 
       1000  "row"

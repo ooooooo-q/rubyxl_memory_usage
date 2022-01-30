@@ -34,7 +34,7 @@ def profile(file)
     )
 
     Benchmark.bm do |x|
-      x.report { write_xlsx(ENV['PATTERN']) }
+      x.report { 20.times {write_xlsx(ENV['PATTERN'])} }
     end
 
   elsif ENV['OPERATE'] == 'read'
@@ -57,7 +57,7 @@ def profile(file)
     )
 
     Benchmark.bm do |x|
-      x.report { read_xlsx(ENV['PATTERN']) }
+      x.report { 20.times {read_xlsx(ENV['PATTERN'])} }
     end
   end
 end  

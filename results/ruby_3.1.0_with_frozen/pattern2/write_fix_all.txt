@@ -713,7 +713,7 @@ Allocated String Report
          1  rubyzip-2.3.2/lib/zip/entry_set.rb:79
          1  rubyzip-2.3.2/lib/zip/output_stream.rb:98
 
-        34  "app.xml"
+        34  "core.xml"
         19  3.1.0/lib/ruby/3.1.0/pathname.rb:49
          5  3.1.0/lib/ruby/3.1.0/pathname.rb:354
          5  3.1.0/lib/ruby/3.1.0/pathname.rb:392

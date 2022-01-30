@@ -15,7 +15,7 @@ allocated memory by file
    6.56 MB  rubyzip-2.3.2/lib/zip/inflater.rb
    2.70 MB  nokogiri-1.13.1/lib/nokogiri/xml/node.rb
    2.50 MB  rubyXL-40875fa975df/lib/rubyXL/objects/reference.rb
- 256.28 kB  rubyzip-2.3.2/lib/zip/crypto/decrypted_io.rb
+ 256.27 kB  rubyzip-2.3.2/lib/zip/crypto/decrypted_io.rb
  216.65 kB  nokogiri-1.13.1/lib/nokogiri/xml/document.rb
   78.70 kB  rubyzip-2.3.2/lib/zip/input_stream.rb
   51.04 kB  3.1.0/lib/ruby/3.1.0/pathname.rb

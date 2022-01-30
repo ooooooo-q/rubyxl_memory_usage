@@ -683,7 +683,11 @@ Allocated String Report
         10  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
          1  fix_set_string.rb:17
 
-        40  "docProps/app.xml"
+        40  "docProps/"
+        20  ruby/lib/pathname.rb:42
+        20  ruby/lib/pathname.rb:46
+
+        40  "docProps/core.xml"
         10  ruby/lib/pathname.rb:351
         10  ruby/lib/pathname.rb:42
          5  ruby/lib/pathname.rb:389
@@ -692,15 +696,6 @@ Allocated String Report
          2  ruby/lib/pathname.rb:119
          1  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
          1  rubyzip-2.3.2/lib/zip/entry_set.rb:21
-         1  rubyzip-2.3.2/lib/zip/entry_set.rb:79
-         1  rubyzip-2.3.2/lib/zip/output_stream.rb:98
-
-        40  "xl/worksheets/sheet1.xml"
-        18  ruby/lib/pathname.rb:351
-         6  ruby/lib/pathname.rb:389
-         6  ruby/lib/pathname.rb:390
-         5  ruby/lib/pathname.rb:119
-         3  ruby/lib/pathname.rb:538
          1  rubyzip-2.3.2/lib/zip/entry_set.rb:79
          1  rubyzip-2.3.2/lib/zip/output_stream.rb:98
 

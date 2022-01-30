@@ -717,13 +717,12 @@ Allocated String Report
          1  rubyzip-2.3.2/lib/zip/entry_set.rb:79
          1  rubyzip-2.3.2/lib/zip/output_stream.rb:98
 
-        39  "/xl/worksheets/sheet1.xml"
-        12  3.0.3/lib/ruby/3.0.0/pathname.rb:354
-        10  3.0.3/lib/ruby/3.0.0/pathname.rb:126
-         6  3.0.3/lib/ruby/3.0.0/pathname.rb:393
-         5  3.0.3/lib/ruby/3.0.0/pathname.rb:513
-         5  3.0.3/lib/ruby/3.0.0/pathname.rb:75
-         1  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
+        39  "app.xml"
+        19  3.0.3/lib/ruby/3.0.0/pathname.rb:49
+         5  3.0.3/lib/ruby/3.0.0/pathname.rb:354
+         5  3.0.3/lib/ruby/3.0.0/pathname.rb:392
+         5  3.0.3/lib/ruby/3.0.0/pathname.rb:413
+         5  rubyXL-3.4.20/lib/rubyXL/objects/document_properties.rb:85
 
         39  "core.xml"
         19  3.0.3/lib/ruby/3.0.0/pathname.rb:49

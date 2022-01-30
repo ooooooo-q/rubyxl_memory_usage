@@ -506,6 +506,9 @@ Allocated String Report
       1000  "@thick_top"
       1000  fix_default_hash2.rb:15
 
+      1000  "B"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:91
+
       1000  "C"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/reference.rb:91
 
@@ -515,7 +518,7 @@ Allocated String Report
       1000  "custom_format="
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:209
 
-      1000  "red"
+      1000  "green"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:130
 
       1000  "row"
@@ -523,7 +526,4 @@ Allocated String Report
 
       1000  "spans="
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:209
-
-      1000  "xyz"
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:130
 

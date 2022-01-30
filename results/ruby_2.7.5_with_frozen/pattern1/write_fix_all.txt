@@ -687,7 +687,7 @@ Allocated String Report
         10  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
          1  fix_all.rb:31
 
-        40  "docProps/app.xml"
+        40  "docProps/core.xml"
         10  ruby/lib/pathname.rb:351
         10  ruby/lib/pathname.rb:42
          5  ruby/lib/pathname.rb:389
