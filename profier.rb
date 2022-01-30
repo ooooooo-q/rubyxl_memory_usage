@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'memory_profiler'
+require 'benchmark'
 
 require './operate.rb'
 
@@ -32,6 +33,10 @@ def profile(file)
       to_file: "results/ruby_#{RUBY_VERSION}#{with_frozen}/#{ENV['PATTERN']}/write_#{file}.txt"
     )
 
+    Benchmark.bm do |x|
+      x.report { write_xlsx(ENV['PATTERN']) }
+    end
+
   elsif ENV['OPERATE'] == 'read'
     read_report = MemoryProfiler.report do
       read_xlsx(ENV['PATTERN'])
@@ -50,6 +55,10 @@ def profile(file)
       retained_strings: 0, 
       to_file: "results/ruby_#{RUBY_VERSION}#{with_frozen}/#{ENV['PATTERN']}/read_#{file}.txt"
     )
+
+    Benchmark.bm do |x|
+      x.report { read_xlsx(ENV['PATTERN']) }
+    end
   end
 end  
 

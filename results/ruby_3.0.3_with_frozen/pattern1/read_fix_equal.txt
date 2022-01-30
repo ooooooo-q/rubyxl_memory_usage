@@ -495,27 +495,27 @@ Allocated String Report
       1001  "D"
       1001  rubyXL-40875fa975df/lib/rubyXL/objects/reference.rb:93
 
+      1000  "1:4"
+      1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:143
+
       1000  "@cells"
       1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:248
 
       1000  "@thick_bot"
       1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:233
 
-      1000  "@thick_top"
-      1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:233
-
-      1000  "C"
-      1000  rubyXL-40875fa975df/lib/rubyXL/objects/reference.rb:93
-
       1000  "cells"
       1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:248
 
-      1000  "thick_bot"
-      1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:233
+      1000  "custom_format="
+      1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:211
 
-      1000  "thick_top"
-      1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:233
-
-      1000  "xyz"
+      1000  "green"
       1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:132
+
+      1000  "row"
+      1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:159
+
+      1000  "spans="
+      1000  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:211
 

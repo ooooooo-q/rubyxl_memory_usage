@@ -580,7 +580,13 @@ Allocated String Report
       1001  "hidden"
       1001  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
+      1000  "@collapsed"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
+
       1000  "@custom_format"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
+
+      1000  "@custom_height"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
       1000  "@ht"
@@ -592,14 +598,8 @@ Allocated String Report
       1000  "@spans"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
-      1000  "@thick_top"
+      1000  "collapsed"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
-
-      1000  "blue"
-      1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
-
-      1000  "customFormat"
-      1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
 
       1000  "custom_format"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
@@ -610,12 +610,12 @@ Allocated String Report
       1000  "green"
       1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
 
-      1000  "red"
-      1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
-
-      1000  "thick_bot"
+      1000  "ht"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
-      1000  "xyz"
-      1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
+      1000  "outline_level"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
+
+      1000  "thick_top"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 

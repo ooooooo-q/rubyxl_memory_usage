@@ -483,6 +483,9 @@ Allocated String Report
       1000  "@collapsed"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
+      1000  "@custom_format"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
+
       1000  "@custom_height"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:231
 
@@ -518,9 +521,6 @@ Allocated String Report
 
       1000  "row"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:157
-
-      1000  "spans="
-      1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:209
 
       1000  "xyz"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:130

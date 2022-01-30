@@ -554,19 +554,16 @@ Allocated String Report
       1000  "@custom_height"
       1000  fix_default_hash2.rb:15
 
-      1000  "@outline_level"
+      1000  "@ht"
       1000  fix_default_hash2.rb:15
 
-      1000  "@thick_top"
+      1000  "@thick_bot"
       1000  fix_default_hash2.rb:15
+
+      1000  "blue"
+      1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
 
       1000  "collapsed"
-      1000  fix_default_hash2.rb:15
-
-      1000  "customFormat"
-      1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:1393
-
-      1000  "custom_format"
       1000  fix_default_hash2.rb:15
 
       1000  "custom_height"
@@ -580,6 +577,9 @@ Allocated String Report
 
       1000  "outline_level"
       1000  fix_default_hash2.rb:15
+
+      1000  "red"
+      1000  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:318
 
       1000  "thick_top"
       1000  fix_default_hash2.rb:15

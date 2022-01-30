@@ -7,42 +7,48 @@
 Total allocated: 18.85 MB (397427 objects)
 Total retained:  6.58 kB (128 objects)
 
-bundle exec ruby base.rb  1.64s user 0.13s system 97% cpu 1.811 total
+       user     system      total        real
+   0.078342   0.000827   0.079169 (  0.079168)
 
 ### fix_all
 
 Total allocated: 11.77 MB (220494 objects)
 Total retained:  24.56 kB (559 objects)
 
-bundle exec ruby fix_all.rb  1.03s user 0.09s system 98% cpu 1.137 total
+       user     system      total        real
+   0.078549   0.000510   0.079059 (  0.079058)
 
 ### fix_default_hash
 
 Total allocated: 16.81 MB (346391 objects)
 Total retained:  7.16 kB (129 objects)
 
-bundle exec ruby fix_default_hash.rb  1.46s user 0.11s system 98% cpu 1.579 total
+       user     system      total        real
+   0.075557   0.000684   0.076241 (  0.076239)
 
 ### fix_default_hash2
 
 Total allocated: 18.52 MB (389196 objects)
 Total retained:  6.58 kB (128 objects)
 
-bundle exec ruby fix_default_hash2.rb  1.57s user 0.11s system 98% cpu 1.700 total
+       user     system      total        real
+   0.076018   0.000634   0.076652 (  0.076648)
 
 ### fix_equal
 
 Total allocated: 18.85 MB (397427 objects)
 Total retained:  6.58 kB (128 objects)
 
-bundle exec ruby fix_equal.rb  1.63s user 0.11s system 99% cpu 1.758 total
+       user     system      total        real
+   0.077992   0.000775   0.078767 (  0.078768)
 
 ### fix_set_string
 
 Total allocated: 14.14 MB (279761 objects)
 Total retained:  23.97 kB (558 objects)
 
-bundle exec ruby fix_set_string.rb  1.24s user 0.10s system 98% cpu 1.358 total
+       user     system      total        real
+   0.077382   0.001073   0.078455 (  0.078459)
 
 ## Read xlsx
 
@@ -51,42 +57,48 @@ bundle exec ruby fix_set_string.rb  1.24s user 0.10s system 98% cpu 1.358 total
 Total allocated: 27.65 MB (425330 objects)
 Total retained:  5.28 kB (55 objects)
 
-bundle exec ruby base.rb  1.68s user 0.11s system 99% cpu 1.815 total
+       user     system      total        real
+   0.066152   0.000962   0.067114 (  0.067115)
 
 ### fix_all
 
 Total allocated: 20.88 MB (255890 objects)
 Total retained:  23.25 kB (486 objects)
 
-bundle exec ruby fix_all.rb  1.18s user 0.11s system 98% cpu 1.304 total
+       user     system      total        real
+   0.063646   0.001040   0.064686 (  0.064686)
 
 ### fix_default_hash
 
 Total allocated: 26.13 MB (387255 objects)
 Total retained:  5.86 kB (56 objects)
 
-bundle exec ruby fix_default_hash.rb  1.57s user 0.10s system 98% cpu 1.691 total
+       user     system      total        real
+   0.064967   0.000924   0.065891 (  0.065892)
 
 ### fix_default_hash2
 
 Total allocated: 27.27 MB (415829 objects)
 Total retained:  5.28 kB (55 objects)
 
-bundle exec ruby fix_default_hash2.rb  1.61s user 0.11s system 98% cpu 1.737 total
+       user     system      total        real
+   0.067098   0.000916   0.068014 (  0.068011)
 
 ### fix_equal
 
 Total allocated: 27.65 MB (425330 objects)
 Total retained:  5.28 kB (55 objects)
 
-bundle exec ruby fix_equal.rb  1.70s user 0.11s system 99% cpu 1.820 total
+       user     system      total        real
+   0.065494   0.001046   0.066540 (  0.066540)
 
 ### fix_set_string
 
 Total allocated: 22.78 MB (303466 objects)
 Total retained:  22.67 kB (485 objects)
 
-bundle exec ruby fix_set_string.rb  1.26s user 0.10s system 98% cpu 1.381 total
+       user     system      total        real
+   0.066058   0.001124   0.067182 (  0.067181)
 
 
 # File pattern2
@@ -98,42 +110,48 @@ bundle exec ruby fix_set_string.rb  1.26s user 0.10s system 98% cpu 1.381 total
 Total allocated: 19.83 MB (417957 objects)
 Total retained:  15.45 kB (238 objects)
 
-bundle exec ruby base.rb  1.70s user 0.12s system 98% cpu 1.841 total
+       user     system      total        real
+   0.084030   0.000703   0.084733 (  0.084733)
 
 ### fix_all
 
 Total allocated: 12.00 MB (222207 objects)
 Total retained:  33.62 kB (674 objects)
 
-bundle exec ruby fix_all.rb  1.08s user 0.09s system 98% cpu 1.190 total
+       user     system      total        real
+   0.080974   0.000537   0.081511 (  0.081510)
 
 ### fix_default_hash
 
 Total allocated: 17.62 MB (362712 objects)
 Total retained:  16.03 kB (239 objects)
 
-bundle exec ruby fix_default_hash.rb  1.61s user 0.12s system 98% cpu 1.751 total
+       user     system      total        real
+   0.080485   0.000739   0.081224 (  0.081222)
 
 ### fix_default_hash2
 
 Total allocated: 19.50 MB (409725 objects)
 Total retained:  15.45 kB (238 objects)
 
-bundle exec ruby fix_default_hash2.rb  1.73s user 0.12s system 99% cpu 1.863 total
+       user     system      total        real
+   0.084495   0.000776   0.085271 (  0.085275)
 
 ### fix_equal
 
 Total allocated: 19.17 MB (401532 objects)
 Total retained:  15.45 kB (238 objects)
 
-bundle exec ruby fix_equal.rb  1.62s user 0.12s system 98% cpu 1.765 total
+       user     system      total        real
+   0.079151   0.000592   0.079743 (  0.079744)
 
 ### fix_set_string
 
 Total allocated: 15.05 MB (298300 objects)
 Total retained:  33.04 kB (673 objects)
 
-bundle exec ruby fix_set_string.rb  1.30s user 0.10s system 98% cpu 1.429 total
+       user     system      total        real
+   0.083022   0.000712   0.083734 (  0.083734)
 
 ## Read xlsx
 
@@ -142,39 +160,45 @@ bundle exec ruby fix_set_string.rb  1.30s user 0.10s system 98% cpu 1.429 total
 Total allocated: 27.67 MB (425533 objects)
 Total retained:  5.32 kB (56 objects)
 
-bundle exec ruby base.rb  1.70s user 0.11s system 99% cpu 1.823 total
+       user     system      total        real
+   0.066597   0.001032   0.067629 (  0.067627)
 
 ### fix_all
 
 Total allocated: 20.89 MB (256005 objects)
 Total retained:  23.49 kB (492 objects)
 
-bundle exec ruby fix_all.rb  1.13s user 0.09s system 98% cpu 1.244 total
+       user     system      total        real
+   0.066341   0.001066   0.067407 (  0.067406)
 
 ### fix_default_hash
 
 Total allocated: 26.15 MB (387439 objects)
 Total retained:  5.90 kB (57 objects)
 
-bundle exec ruby fix_default_hash.rb  1.60s user 0.10s system 99% cpu 1.715 total
+       user     system      total        real
+   0.065980   0.001118   0.067098 (  0.067107)
 
 ### fix_default_hash2
 
 Total allocated: 27.29 MB (416027 objects)
 Total retained:  5.32 kB (56 objects)
 
-bundle exec ruby fix_default_hash2.rb  1.67s user 0.11s system 99% cpu 1.794 total
+       user     system      total        real
+   0.065771   0.001237   0.067008 (  0.067007)
 
 ### fix_equal
 
 Total allocated: 27.67 MB (425533 objects)
 Total retained:  5.32 kB (56 objects)
 
-bundle exec ruby fix_equal.rb  1.72s user 0.11s system 99% cpu 1.845 total
+       user     system      total        real
+   0.066173   0.000740   0.066913 (  0.066912)
 
 ### fix_set_string
 
 Total allocated: 22.79 MB (303605 objects)
 Total retained:  22.91 kB (491 objects)
 
-bundle exec ruby fix_set_string.rb  1.28s user 0.10s system 98% cpu 1.395 total
+       user     system      total        real
+   0.065465   0.001048   0.066513 (  0.066514)

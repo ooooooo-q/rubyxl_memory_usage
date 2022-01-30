@@ -584,16 +584,16 @@ Allocated String Report
       1001  "hidden"
       1001  fix_default_hash2.rb:15
 
+      1000  "1:4"
+      1000  rubyXL-3.4.20/lib/rubyXL/objects/worksheet.rb:718
+
       1000  "@cells"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:246
 
-      1000  "@custom_format"
+      1000  "@collapsed"
       1000  fix_default_hash2.rb:15
 
-      1000  "@custom_height"
-      1000  fix_default_hash2.rb:15
-
-      1000  "@ht"
+      1000  "@spans"
       1000  fix_default_hash2.rb:15
 
       1000  "@thick_bot"
@@ -608,7 +608,7 @@ Allocated String Report
       1000  "cells"
       1000  rubyXL-3.4.20/lib/rubyXL/objects/ooxml_object.rb:246
 
-      1000  "ht"
+      1000  "custom_format"
       1000  fix_default_hash2.rb:15
 
       1000  "red"

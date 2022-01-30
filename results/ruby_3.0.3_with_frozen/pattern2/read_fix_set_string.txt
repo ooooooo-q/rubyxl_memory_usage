@@ -582,6 +582,6 @@ Allocated String Report
         46  "a:schemeClr"
         46  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:160
 
-        46  "schemeClr"
-        46  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:160
+        46  "a_scheme_clr="
+        46  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:179
 

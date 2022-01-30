@@ -692,10 +692,11 @@ Allocated String Report
          5  3.0.3/lib/ruby/3.0.0/pathname.rb:413
          5  rubyXL-3.4.20/lib/rubyXL/objects/document_properties.rb:85
 
-        39  "core.xml"
-        19  3.0.3/lib/ruby/3.0.0/pathname.rb:49
-         5  3.0.3/lib/ruby/3.0.0/pathname.rb:354
-         5  3.0.3/lib/ruby/3.0.0/pathname.rb:392
-         5  3.0.3/lib/ruby/3.0.0/pathname.rb:413
-         5  rubyXL-3.4.20/lib/rubyXL/objects/document_properties.rb:122
+        39  "worksheets/sheet1.xml"
+        12  3.0.3/lib/ruby/3.0.0/pathname.rb:354
+         8  3.0.3/lib/ruby/3.0.0/pathname.rb:544
+         6  3.0.3/lib/ruby/3.0.0/pathname.rb:392
+         6  3.0.3/lib/ruby/3.0.0/pathname.rb:393
+         6  3.0.3/lib/ruby/3.0.0/pathname.rb:49
+         1  nokogiri-1.13.1/lib/nokogiri/xml/document.rb:233
 

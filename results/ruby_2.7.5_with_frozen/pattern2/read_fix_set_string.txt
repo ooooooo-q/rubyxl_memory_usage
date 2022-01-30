@@ -590,6 +590,12 @@ Allocated String Report
         46  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:179
          1  fix_set_string.rb:36
 
-        46  "a_scheme_clr="
-        46  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:179
+        46  "name"
+        10  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:136
+        10  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:211
+        10  nokogiri-1.13.1/lib/nokogiri/xml/node.rb:517
+         9  rubyzip-2.3.2/lib/zip/entry.rb:506
+         3  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:159
+         3  rubyXL-40875fa975df/lib/rubyXL/objects/ooxml_object.rb:179
+         1  fix_set_string.rb:17
 
